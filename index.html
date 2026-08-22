@@ -1,2 +1,278 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Circular Living — ICE</title><style>:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;height:100%}body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#fff;background:radial-gradient(120% 120% at 20% 0%,#6100FF 0%,#0b0a1a 55%);display:flex;align-items:center;justify-content:center;padding:32px;text-align:center}main{max-width:640px}.kicker{letter-spacing:.28em;text-transform:uppercase;font-size:13px;color:rgba(255,255,255,.7);margin:0 0 18px}h1{font-size:clamp(34px,7vw,64px);margin:0 0 14px;line-height:1.05}.lead{font-size:clamp(16px,2.4vw,21px);color:rgba(255,255,255,.85);margin:0 0 28px}.foot{font-size:13px;color:rgba(255,255,255,.55)}code{background:rgba(255,255,255,.12);padding:2px 7px;border-radius:6px}</style></head><body><main><p class="kicker">ICE · Team E</p><h1>Circular Living</h1><p class="lead">Designing waste out of everyday life, one household at a time.</p><p class="foot">This is your team's starter site. Push your own code to <code>team-e-website</code> to replace it.</p></main></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HANDOver — Preserving Sri Lankan Craftsmanship with AI</title>
+<meta name="description" content="HANDOver captures a master artisan's craft with Meta Aria smart glasses and turns it into an AI-guided, real-time training experience for the next generation of Sri Lankan craftspeople.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23c9702b'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' font-family='Georgia,serif' fill='%23fff7ec'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__mark">H</span>
+    <span>HANDOver</span>
+  </a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav__links" id="navLinks">
+    <a href="#problem">The Problem</a>
+    <a href="#framework">Framework</a>
+    <a href="#how">How it Works</a>
+    <a href="#demo">Demo</a>
+    <a href="#story">Story</a>
+    <a href="#team">Team</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img src="assets/images/craft-batik.jpg" alt="">
+    </div>
+    <div class="hero__scrim"></div>
+    <div class="hero__content reveal">
+      <p class="kicker">ICE Bootcamp 2026 &middot; Team E</p>
+      <h1>HAND<span class="accent">OVER</span></h1>
+      <p class="hero__lead">Bringing generations of Sri&nbsp;Lankan craftsmanship into the future — captured through smart glasses, preserved as living knowledge, and handed to the next generation with real&#8209;time AI coaching.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="#demo">Watch the demo</a>
+        <a class="btn btn--ghost" href="#framework">See how it works</a>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#problem" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- STAT STRIP -->
+  <section class="stats">
+    <div class="stats__grid reveal">
+      <div class="stat">
+        <span class="stat__num">&lt;2%</span>
+        <span class="stat__label">of master artisans have an active successor in training<br><em>— National Craft Council</em></span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">26+</span>
+        <span class="stat__label">distinct traditional crafts practiced across Sri&nbsp;Lanka</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">57</span>
+        <span class="stat__label">craft centres nationwide that could adopt this training model</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">~540</span>
+        <span class="stat__label">full-time apprentices trained every year</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="problem" id="problem">
+    <div class="section-inner">
+      <div class="problem__grid">
+        <figure class="problem__img reveal">
+          <img src="assets/images/craft-weaving.jpg" alt="A senior handloom weaver at work, with another weaver in the background of the workshop">
+        </figure>
+        <div class="problem__text reveal">
+          <p class="kicker kicker--dark">Why HANDOver</p>
+          <h2>Tacit knowledge doesn't survive on its own.</h2>
+          <p>A master craftsman doesn't just know <em>what</em> to do — decades of practice live in the tiny, wordless decisions made with the eyes and hands: how hard to press, when to pause, how a texture should feel before moving on. That knowledge has always required years of standing beside a master to absorb.</p>
+          <p>When there's no apprentice in the room, it disappears with them. Sri Lanka's traditional crafts — mask carving, batik, handloom weaving, cane and reed work, pottery — are losing their masters faster than they're gaining successors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK -->
+  <section class="framework" id="framework">
+    <div class="section-inner">
+      <p class="kicker">The Framework</p>
+      <h2 class="reveal">Harvest. Analyze. <span class="accent">Hand&nbsp;over.</span></h2>
+      <p class="framework__lead reveal">HANDOver turns a craftsman's know-how into a durable, teachable asset — using Meta Aria Gen&nbsp;2 smart glasses to see the craft the way the artisan sees it.</p>
+
+      <div class="flow reveal">
+        <div class="flow__step">
+          <div class="flow__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M6 30c0 4 3 7 8 7s8-4 8-9M42 30c0 4-3 7-8 7s-8-4-8-9M22 28h4M14 20l1-4c1-3 3-4 6-4h6c3 0 5 1 6 4l1 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Harvest</h3>
+          <p>The artisan wears Aria&nbsp;Gen&nbsp;2 glasses while working <em>and</em> narrating each move — capturing POV video, eye gaze, hand tracking, and audio explanation simultaneously.</p>
+        </div>
+        <div class="flow__arrow" aria-hidden="true">→</div>
+        <div class="flow__step">
+          <div class="flow__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="6" width="28" height="36" rx="2" stroke="currentColor" stroke-width="2.5"/><path d="M16 16h16M16 23h16M16 30h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Analyze</h3>
+          <p>Video, gaze, hand pose and audio are fused into a structured, step-by-step knowledge base — the subtle nuances of the craft, captured and made explicit for the first time.</p>
+        </div>
+        <div class="flow__arrow" aria-hidden="true">→</div>
+        <div class="flow__step">
+          <div class="flow__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M6 22 24 8l18 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 19v19a2 2 0 0 0 2 2h6v-12h10v12h6a2 2 0 0 0 2-2V19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Hand over</h3>
+          <p>The playbook is delivered to vocational institutions like NAITA, where apprentices learn with real-time, camera-driven feedback — no master required in the room.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="section-inner">
+      <p class="kicker">How it Works</p>
+      <h2 class="reveal">One capture. Many apprentices.</h2>
+
+      <div class="how__row reveal">
+        <div class="how__media">
+          <img src="assets/images/craft-cane.jpg" alt="Cane strips being woven by hand on a wooden workbench">
+          <span class="how__tag">01 · Capture</span>
+        </div>
+        <div class="how__copy">
+          <h3>The master works, wearing the glasses</h3>
+          <p>A skilled craftsman performs the craft as usual — while wearing Meta Aria Gen&nbsp;2 glasses. He's asked to narrate what he's doing as he does it. The glasses quietly record:</p>
+          <ul class="checklist">
+            <li>Point-of-view RGB video of every motion</li>
+            <li>Eye gaze — where attention lands at each step</li>
+            <li>Hand and finger tracking, movement by movement</li>
+            <li>Spoken narration explaining the "why," not just the "what"</li>
+          </ul>
+          <p>This raw, multi-modal capture becomes the seed of a structured knowledge base for that craft — built once, reusable forever.</p>
+        </div>
+      </div>
+
+      <div class="how__row how__row--reverse reveal">
+        <div class="how__media">
+          <img src="assets/images/naita-tablet.jpg" alt="A trainee at a NAITA workstation following step-by-step instructions on a tablet while batik-painting fabric">
+          <span class="how__tag">02 · Train</span>
+        </div>
+        <div class="how__copy">
+          <h3>The apprentice learns, with AI watching</h3>
+          <p>At a training institution, a camera is mounted above the trainee's workspace, with a tablet showing step-by-step instructions drawn from the knowledge base.</p>
+          <p>As the trainee attempts each step, the overhead camera observes their hand movements and compares them to the reference. Before they're allowed to move to the next step, the system checks their work — and if something's off, it explains what to fix, right there, in the moment.</p>
+          <p class="how__emph">Feedback-driven, real-time learning — so one master can effectively train many apprentices, without being physically present for each one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="demo" id="demo">
+    <div class="section-inner">
+      <p class="kicker">Working Prototype</p>
+      <h2 class="reveal">We built this end-to-end — with origami.</h2>
+      <p class="demo__lead reveal">To prove the full loop, we recorded a person skilled in origami using Aria glasses, extracted a step-by-step tutorial from the capture, then had a novice follow it. A webcam watched them attempt each step; an AI agent checked their work before letting them continue — and corrected them when they got something wrong.</p>
+
+      <div class="demo__video reveal">
+        <video controls preload="metadata" poster="assets/images/demo-training-poster.jpg" playsinline>
+          <source src="assets/video/demo-training.mp4" type="video/mp4">
+          Your browser doesn't support embedded video. <a href="assets/video/demo-training.mp4">Download the demo</a> instead.
+        </video>
+      </div>
+      <div class="demo__caption">
+        <span>Live prototype — step-by-step origami tutorial with real-time AI feedback</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="section-inner">
+      <p class="kicker">The Story of HANDOver</p>
+      <h2 class="reveal">Why we're building this</h2>
+      <div class="story__video reveal">
+        <video controls preload="metadata" poster="assets/images/demo-story-poster.jpg" playsinline>
+          <source src="assets/video/demo-story.mp4" type="video/mp4">
+          Your browser doesn't support embedded video. <a href="assets/video/demo-story.mp4">Download the intro video</a> instead.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTER -->
+  <section class="poster-section">
+    <div class="section-inner">
+      <p class="kicker">Demo Day</p>
+      <h2 class="reveal">Our ICE 2026 poster</h2>
+      <p class="reveal">Presented at the ICE Bootcamp 2026 finale — click to view full size.</p>
+      <button class="poster-frame reveal" id="posterOpen" aria-label="View full poster">
+        <img src="assets/images/poster.jpg" alt="HANDOver project poster: What, Why, How, and the Harvest, Analyze, and Deliver framework, with a diagram of the HANDOver toolkit">
+        <span class="poster-frame__hint">Click to enlarge</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="impact">
+    <div class="impact__bg" aria-hidden="true">
+      <img src="assets/images/craft-pottery.jpg" alt="">
+    </div>
+    <div class="impact__scrim"></div>
+    <div class="section-inner impact__content reveal">
+      <p class="kicker kicker--light">Impact</p>
+      <h2>Craft doesn't have to disappear when its master retires.</h2>
+      <div class="impact__cols">
+        <div>
+          <h3>Preserve</h3>
+          <p>Every capture becomes a permanent, structured record of technique — safeguarding heritage crafts against the day a master is no longer there to teach.</p>
+        </div>
+        <div>
+          <h3>Scale</h3>
+          <p>One recording session can train an unlimited number of apprentices, at institutions like NAITA, without the artisan needing to be in the room for each one.</p>
+        </div>
+        <div>
+          <h3>Empower</h3>
+          <p>Real-time, judgment-free feedback lets learners fail safely and correct course immediately — building genuine skill, not just imitation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="section-inner">
+      <p class="kicker">Team E</p>
+      <h2 class="reveal">Built at ICE Bootcamp 2026</h2>
+      <p class="team__lead reveal">HANDOver was designed and prototyped over the ICE Bootcamp 2026, hosted by Design Innovations at the Foundation of Goodness, under the guidance of Prof. Suranga Nanayakkara.</p>
+      <div class="team__gallery reveal">
+        <figure>
+          <img src="assets/images/team-bootcamp.jpg" alt="Team E prototyping during ICE Bootcamp 2026, Day 01">
+          <figcaption>Day 01 — ideation &amp; prototyping</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/images/team-finale.jpg" alt="Team E on stage at the ICE Bootcamp 2026 finale event">
+          <figcaption>Finale event — ICE 2026</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <div>
+      <span class="nav__mark">H</span>
+      <strong>HANDOver</strong>
+      <span class="footer__muted">— Team E, ICE Bootcamp 2026</span>
+    </div>
+    <p class="footer__muted">Design Innovations &middot; Foundation of Goodness &middot; Innovation · Creativity · Entrepreneurship</p>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="HANDOver poster, full size">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
